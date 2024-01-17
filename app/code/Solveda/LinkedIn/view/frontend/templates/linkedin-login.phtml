@@ -1,0 +1,3 @@
+<?php if (!$block->isLoggedIn()): ?>
+    <a href="<?php echo $block->escapeUrl($block->getLinkedInLoginUrl()); ?>">Login with LinkedIn</a>
+<?php endif; ?>
